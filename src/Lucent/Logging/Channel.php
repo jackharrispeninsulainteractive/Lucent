@@ -23,7 +23,7 @@ class Channel
         'debug' => "\033[0;37m"     // White
     ];
 
-    public function __construct(string $channel, string $driver = 'local_file', string $path = '', ?bool $useColors)
+    public function __construct(string $channel, string $driver = 'local_file', string $path = '', ?bool $useColors = null)
     {
         $this->channel = $channel;
         $this->driver = $driver;
