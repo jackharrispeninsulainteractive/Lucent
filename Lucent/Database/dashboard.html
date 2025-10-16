@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/runner/work/Lucent/Lucent/src/Lucent/Database</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=12.4.0" rel="stylesheet" type="text/css">
+  <link href="../../_css/billboard.min.css?v=12.4.0" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=12.4.0" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/runner/work/Lucent/Lucent/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Lucent</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Database</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classesCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Schema/Reference.php.html#7">Lucent\Database\Schema\Reference</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="Dataset.php.html#5">Lucent\Database\Dataset</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#12">Lucent\Database\Drivers\PDODriver</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Migration.php.html#16">Lucent\Database\Migration</a></td><td class="text-right">67%</td></tr>
+       <tr><td><a href="Schema/Column.php.html#9">Lucent\Database\Schema\Column</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Schema/NumericColumn.php.html#5">Lucent\Database\Schema\NumericColumn</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Dataset.php.html#5">Lucent\Database\Dataset</a></td><td class="text-right">10.5%</td><td class="text-right">16</td><td class="text-right">199</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#12">Lucent\Database\Drivers\PDODriver</a></td><td class="text-right">57.6%</td><td class="text-right">35</td><td class="text-right">128</td></tr>
+       <tr><td><a href="Migration.php.html#16">Lucent\Database\Migration</a></td><td class="text-right">67.7%</td><td class="text-right">23</td><td class="text-right">40</td></tr>
+       <tr><td><a href="Schema/Column.php.html#9">Lucent\Database\Schema\Column</a></td><td class="text-right">87.9%</td><td class="text-right">25</td><td class="text-right">26</td></tr>
+       <tr><td><a href="Schema/Reference.php.html#7">Lucent\Database\Schema\Reference</a></td><td class="text-right">10.0%</td><td class="text-right">5</td><td class="text-right">23</td></tr>
+       <tr><td><a href="Schema/NumericColumn.php.html#5">Lucent\Database\Schema\NumericColumn</a></td><td class="text-right">88.5%</td><td class="text-right">11</td><td class="text-right">11</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2 style="margin-top: 3rem;">Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodsCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Attributes/DatabaseColumn.php.html#45"><abbr title="Lucent\Database\Attributes\DatabaseColumn::setName">setName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Attributes/DatabaseColumn.php.html#50"><abbr title="Lucent\Database\Attributes\DatabaseColumn::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Attributes/DatabaseColumn.php.html#55"><abbr title="Lucent\Database\Attributes\DatabaseColumn::shouldSkip">shouldSkip</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dataset.php.html#19"><abbr title="Lucent\Database\Dataset::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dataset.php.html#26"><abbr title="Lucent\Database\Dataset::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dataset.php.html#39"><abbr title="Lucent\Database\Dataset::with">with</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dataset.php.html#44"><abbr title="Lucent\Database\Dataset::only">only</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dataset.php.html#51"><abbr title="Lucent\Database\Dataset::except">except</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dataset.php.html#60"><abbr title="Lucent\Database\Dataset::integer">integer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dataset.php.html#65"><abbr title="Lucent\Database\Dataset::array">array</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#136"><abbr title="Lucent\Database\Drivers\PDODriver::createTable">createTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#278"><abbr title="Lucent\Database\Drivers\PDODriver::getValuesNotInArrayAsMap">getValuesNotInArrayAsMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema/Column.php.html#67"><abbr title="Lucent\Database\Schema\Column::unique">unique</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema/Column.php.html#89"><abbr title="Lucent\Database\Schema\Column::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema/NumericColumn.php.html#23"><abbr title="Lucent\Database\Schema\NumericColumn::unsigned">unsigned</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema/Reference.php.html#18"><abbr title="Lucent\Database\Schema\Reference::fromString">fromString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Schema/Table.php.html#152"><abbr title="Lucent\Database\Schema\Table::column">column</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#254"><abbr title="Lucent\Database\Drivers\PDODriver::transaction">transaction</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Schema/Table.php.html#18"><abbr title="Lucent\Database\Schema\Table::__construct">__construct</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#177"><abbr title="Lucent\Database\Drivers\PDODriver::statement">statement</abbr></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Migration.php.html#19"><abbr title="Lucent\Database\Migration::make">make</abbr></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#87"><abbr title="Lucent\Database\Drivers\PDODriver::__construct">__construct</abbr></a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="Migration.php.html#123"><abbr title="Lucent\Database\Migration::analyzeNewStructure">analyzeNewStructure</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Schema/Table.php.html#181"><abbr title="Lucent\Database\Schema\Table::toSql">toSql</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Migration.php.html#19"><abbr title="Lucent\Database\Migration::make">make</abbr></a></td><td class="text-right">63.3%</td><td class="text-right">18</td><td class="text-right">34</td></tr>
+       <tr><td><a href="Dataset.php.html#26"><abbr title="Lucent\Database\Dataset::transform">transform</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#136"><abbr title="Lucent\Database\Drivers\PDODriver::createTable">createTable</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Schema/Reference.php.html#18"><abbr title="Lucent\Database\Schema\Reference::fromString">fromString</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#177"><abbr title="Lucent\Database\Drivers\PDODriver::statement">statement</abbr></a></td><td class="text-right">55.6%</td><td class="text-right">6</td><td class="text-right">9</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#87"><abbr title="Lucent\Database\Drivers\PDODriver::__construct">__construct</abbr></a></td><td class="text-right">76.0%</td><td class="text-right">8</td><td class="text-right">8</td></tr>
+       <tr><td><a href="Drivers/PDODriver.php.html#254"><abbr title="Lucent\Database\Drivers\PDODriver::transaction">transaction</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">5</td><td class="text-right">8</td></tr>
+       <tr><td><a href="Dataset.php.html#44"><abbr title="Lucent\Database\Dataset::only">only</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Dataset.php.html#51"><abbr title="Lucent\Database\Dataset::except">except</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Dataset.php.html#60"><abbr title="Lucent\Database\Dataset::integer">integer</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Migration.php.html#123"><abbr title="Lucent\Database\Migration::analyzeNewStructure">analyzeNewStructure</abbr></a></td><td class="text-right">81.2%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Schema/Table.php.html#181"><abbr title="Lucent\Database\Schema\Table::toSql">toSql</abbr></a></td><td class="text-right">87.5%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Schema/Table.php.html#18"><abbr title="Lucent\Database\Schema\Table::__construct">__construct</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 12.4.0</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.13</a> and <a href="https://phpunit.de/">PHPUnit 12.4.1</a> at Thu Oct 16 5:17:31 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/billboard.pkgd.min.js?v=12.4.0" type="text/javascript"></script>
+  <script type="application/json" id="complexity_class">[[10,5,"Schema\/Reference.php.html#7","Lucent\\Database\\Schema\\Reference","23.23"],[10.526315789473683,16,"Dataset.php.html#5","Lucent\\Database\\Dataset","199.37"],[57.608695652173914,35,"Drivers\/PDODriver.php.html#12","Lucent\\Database\\Drivers\\PDODriver","128.32"],[67.6923076923077,23,"Migration.php.html#16","Lucent\\Database\\Migration","40.84"],[87.93103448275862,25,"Schema\/Column.php.html#9","Lucent\\Database\\Schema\\Column","26.10"],[88.46153846153845,11,"Schema\/NumericColumn.php.html#5","Lucent\\Database\\Schema\\NumericColumn","11.19"],[92.40506329113924,27,"Schema\/Table.php.html#10","Lucent\\Database\\Schema\\Table","27.32"],[92.85714285714286,9,"Attributes\/DatabaseColumn.php.html#8","Lucent\\Database\\Attributes\\DatabaseColumn","9.03"],[100,0,"DatabaseInterface.php.html#5","Lucent\\Database\\DatabaseInterface","0"],[100,4,"Schema.php.html#8","Lucent\\Database\\Schema","4"]]</script>
+  <script type="application/json" id="complexity_method">[[0,1,"Attributes\/DatabaseColumn.php.html#45","Lucent\\Database\\Attributes\\DatabaseColumn::setName","2"],[0,1,"Attributes\/DatabaseColumn.php.html#50","Lucent\\Database\\Attributes\\DatabaseColumn::getName","2"],[0,1,"Attributes\/DatabaseColumn.php.html#55","Lucent\\Database\\Attributes\\DatabaseColumn::shouldSkip","2"],[0,1,"Dataset.php.html#19","Lucent\\Database\\Dataset::set","2"],[0,4,"Dataset.php.html#26","Lucent\\Database\\Dataset::transform","20"],[0,1,"Dataset.php.html#39","Lucent\\Database\\Dataset::with","2"],[0,2,"Dataset.php.html#44","Lucent\\Database\\Dataset::only","6"],[0,2,"Dataset.php.html#51","Lucent\\Database\\Dataset::except","6"],[0,2,"Dataset.php.html#60","Lucent\\Database\\Dataset::integer","6"],[0,1,"Dataset.php.html#65","Lucent\\Database\\Dataset::array","2"],[0,4,"Drivers\/PDODriver.php.html#136","Lucent\\Database\\Drivers\\PDODriver::createTable","20"],[0,1,"Drivers\/PDODriver.php.html#278","Lucent\\Database\\Drivers\\PDODriver::getValuesNotInArrayAsMap","2"],[0,1,"Schema\/Column.php.html#67","Lucent\\Database\\Schema\\Column::unique","2"],[0,1,"Schema\/Column.php.html#89","Lucent\\Database\\Schema\\Column::exists","2"],[0,1,"Schema\/NumericColumn.php.html#23","Lucent\\Database\\Schema\\NumericColumn::unsigned","2"],[0,4,"Schema\/Reference.php.html#18","Lucent\\Database\\Schema\\Reference::fromString","20"],[0,1,"Schema\/Table.php.html#152","Lucent\\Database\\Schema\\Table::column","2"],[50,5,"Drivers\/PDODriver.php.html#254","Lucent\\Database\\Drivers\\PDODriver::transaction","8.12"],[50,2,"Schema\/Table.php.html#18","Lucent\\Database\\Schema\\Table::__construct","2.50"],[55.55555555555556,6,"Drivers\/PDODriver.php.html#177","Lucent\\Database\\Drivers\\PDODriver::statement","9.16"],[63.26530612244898,18,"Migration.php.html#19","Lucent\\Database\\Migration::make","34.06"],[76,8,"Drivers\/PDODriver.php.html#87","Lucent\\Database\\Drivers\\PDODriver::__construct","8.88"],[81.25,5,"Migration.php.html#123","Lucent\\Database\\Migration::analyzeNewStructure","5.16"],[87.5,3,"Schema\/Table.php.html#181","Lucent\\Database\\Schema\\Table::toSql","3.02"],[93.10344827586206,16,"Schema\/Column.php.html#99","Lucent\\Database\\Schema\\Column::toSql","16.08"],[94.73684210526315,8,"Schema\/NumericColumn.php.html#29","Lucent\\Database\\Schema\\NumericColumn::toSql","8.01"],[100,3,"Attributes\/DatabaseColumn.php.html#13","Lucent\\Database\\Attributes\\DatabaseColumn::__construct","3"],[100,1,"Attributes\/DatabaseColumn.php.html#60","Lucent\\Database\\Attributes\\DatabaseColumn::toModelColumn","1"],[100,2,"Attributes\/DatabaseColumn.php.html#77","Lucent\\Database\\Attributes\\DatabaseColumn::fromProperty","2"],[100,0,"DatabaseInterface.php.html#9","Lucent\\Database\\DatabaseInterface::createTable","0"],[100,0,"DatabaseInterface.php.html#11","Lucent\\Database\\DatabaseInterface::lastInsertId","0"],[100,0,"DatabaseInterface.php.html#14","Lucent\\Database\\DatabaseInterface::statement","0"],[100,0,"DatabaseInterface.php.html#15","Lucent\\Database\\DatabaseInterface::insert","0"],[100,0,"DatabaseInterface.php.html#16","Lucent\\Database\\DatabaseInterface::delete","0"],[100,0,"DatabaseInterface.php.html#17","Lucent\\Database\\DatabaseInterface::update","0"],[100,0,"DatabaseInterface.php.html#18","Lucent\\Database\\DatabaseInterface::select","0"],[100,0,"DatabaseInterface.php.html#19","Lucent\\Database\\DatabaseInterface::transaction","0"],[100,0,"DatabaseInterface.php.html#21","Lucent\\Database\\DatabaseInterface::getDriverName","0"],[100,0,"DatabaseInterface.php.html#22","Lucent\\Database\\DatabaseInterface::closeDriver","0"],[100,1,"Dataset.php.html#9","Lucent\\Database\\Dataset::__construct","1"],[100,2,"Dataset.php.html#14","Lucent\\Database\\Dataset::get","2"],[100,1,"Drivers\/PDODriver.php.html#131","Lucent\\Database\\Drivers\\PDODriver::getDriverName","1"],[100,1,"Drivers\/PDODriver.php.html#172","Lucent\\Database\\Drivers\\PDODriver::lastInsertId","1"],[100,1,"Drivers\/PDODriver.php.html#217","Lucent\\Database\\Drivers\\PDODriver::insert","1"],[100,1,"Drivers\/PDODriver.php.html#222","Lucent\\Database\\Drivers\\PDODriver::delete","1"],[100,1,"Drivers\/PDODriver.php.html#227","Lucent\\Database\\Drivers\\PDODriver::update","1"],[100,5,"Drivers\/PDODriver.php.html#232","Lucent\\Database\\Drivers\\PDODriver::select","5"],[100,1,"Drivers\/PDODriver.php.html#292","Lucent\\Database\\Drivers\\PDODriver::closeDriver","1"],[100,2,"Schema.php.html#16","Lucent\\Database\\Schema::table","2"],[100,2,"Schema.php.html#30","Lucent\\Database\\Schema::list","2"],[100,1,"Schema\/Column.php.html#26","Lucent\\Database\\Schema\\Column::__construct","1"],[100,1,"Schema\/Column.php.html#43","Lucent\\Database\\Schema\\Column::default","1"],[100,1,"Schema\/Column.php.html#49","Lucent\\Database\\Schema\\Column::nullable","1"],[100,1,"Schema\/Column.php.html#55","Lucent\\Database\\Schema\\Column::length","1"],[100,1,"Schema\/Column.php.html#61","Lucent\\Database\\Schema\\Column::primaryKey","1"],[100,1,"Schema\/Column.php.html#73","Lucent\\Database\\Schema\\Column::references","1"],[100,1,"Schema\/Column.php.html#83","Lucent\\Database\\Schema\\Column::values","1"],[100,1,"Schema\/NumericColumn.php.html#10","Lucent\\Database\\Schema\\NumericColumn::__construct","1"],[100,1,"Schema\/NumericColumn.php.html#17","Lucent\\Database\\Schema\\NumericColumn::autoIncrement","1"],[100,1,"Schema\/Reference.php.html#9","Lucent\\Database\\Schema\\Reference::__construct","1"],[100,1,"Schema\/Table.php.html#33","Lucent\\Database\\Schema\\Table::binary","1"],[100,1,"Schema\/Table.php.html#40","Lucent\\Database\\Schema\\Table::tinyint","1"],[100,1,"Schema\/Table.php.html#47","Lucent\\Database\\Schema\\Table::decimal","1"],[100,1,"Schema\/Table.php.html#54","Lucent\\Database\\Schema\\Table::int","1"],[100,1,"Schema\/Table.php.html#61","Lucent\\Database\\Schema\\Table::bigint","1"],[100,1,"Schema\/Table.php.html#68","Lucent\\Database\\Schema\\Table::json","1"],[100,1,"Schema\/Table.php.html#75","Lucent\\Database\\Schema\\Table::timestamp","1"],[100,1,"Schema\/Table.php.html#82","Lucent\\Database\\Schema\\Table::enum","1"],[100,1,"Schema\/Table.php.html#89","Lucent\\Database\\Schema\\Table::date","1"],[100,1,"Schema\/Table.php.html#96","Lucent\\Database\\Schema\\Table::text","1"],[100,1,"Schema\/Table.php.html#103","Lucent\\Database\\Schema\\Table::varchar","1"],[100,1,"Schema\/Table.php.html#110","Lucent\\Database\\Schema\\Table::boolean","1"],[100,1,"Schema\/Table.php.html#117","Lucent\\Database\\Schema\\Table::float","1"],[100,1,"Schema\/Table.php.html#124","Lucent\\Database\\Schema\\Table::double","1"],[100,1,"Schema\/Table.php.html#131","Lucent\\Database\\Schema\\Table::char","1"],[100,1,"Schema\/Table.php.html#138","Lucent\\Database\\Schema\\Table::longtext","1"],[100,1,"Schema\/Table.php.html#145","Lucent\\Database\\Schema\\Table::mediumtext","1"],[100,1,"Schema\/Table.php.html#157","Lucent\\Database\\Schema\\Table::create","1"],[100,1,"Schema\/Table.php.html#163","Lucent\\Database\\Schema\\Table::drop","1"],[100,2,"Schema\/Table.php.html#170","Lucent\\Database\\Schema\\Table::exists","2"]]</script>
+  <script type="text/javascript" defer>
+  const barLabels = [
+    '0%',
+    '0-10%',
+    '10-20%',
+    '20-30%',
+    '30-40%',
+    '40-50%',
+    '50-60%',
+    '60-70%',
+    '70-80%',
+    '80-90%',
+    '90-100%',
+    '100%'
+  ];
+  const barConfig = (name, fullName, values) => ({
+    axis: {
+      x: {
+        type: "category",
+        categories: barLabels,
+      },
+      y: {
+        label: {
+          text: `#${name}`,
+          position: 'outer-top',
+        },
+      },
+    },
+    bindto: `#${name}CoverageDistribution`,
+    data: {
+      columns: [
+        [fullName].concat(values),
+      ],
+      colors: {
+        [fullName]: "rgba(69, 114, 167, 0.75)",
+      },
+      type: "bar",
+    },
+    bar: {
+      width: {
+        ratio: 0.9,
+      },
+    },
+    grid: {
+      focus: {
+        show: false,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">Coverage ${barLabels[data[0].x]}</th></tr>
+            <tr><td class="value">${data[0].value} ${name}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  bb.generate(
+    barConfig('classes', "Class Coverage", [0,0,2,0,0,0,1,1,0,2,2,2])
+  );
+  bb.generate(
+    barConfig('methods', "Method Coverage", [17,0,0,0,0,0,3,1,1,2,2,54])
+  );
+
+  const scatterConfig = (name, complexityData) => ({
+    axis: {
+      x: {
+        label: {
+          text: 'Code Coverage (in percent)',
+          position: 'outer-right',
+        },
+        tick: {
+          values: [0, 20, 40, 60, 80, 100],
+        },
+      },
+      y: {
+        label: {
+          text: 'Cyclomatic Complexity',
+          position: 'outer-top',
+        },
+        min: 0,
+        padding: {
+          bottom: 0,
+          top: 5,
+        },
+      },
+    },
+    bindto: `#${name}Complexity`,
+    data: {
+      columns: [
+        ["complexity_x"].concat(complexityData.map(d => d[0])),
+        ["complexity"].concat(complexityData.map(d => d[1])),
+      ],
+      onclick: function(data, element) {
+        window.location = complexityData[data.index][2];
+      },
+      type: "scatter",
+      xs: {
+        "complexity": "complexity_x",
+      },
+    },
+    grid: {
+      focus: {
+        show: true,
+        y: true,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        const coverage = Math.round(data[0].x);
+        const complexity = data[0].value;
+        const targetName = complexityData[data[0].index][3];
+        const crap = complexityData[data[0].index][4];
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">${targetName}</th></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Coverage</td><td class="name">${coverage}%</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Complexity</td><td class="value">${complexity}</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Crap</td><td class="value">${crap}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  const classComplexityData = JSON.parse(document.getElementById('complexity_class').textContent);
+  bb.generate(
+    scatterConfig("class", classComplexityData)
+  );
+  const methodComplexityData = JSON.parse(document.getElementById('complexity_method').textContent);
+  bb.generate(
+    scatterConfig("method", methodComplexityData),
+  );
+  </script>
+ </body>
+</html>

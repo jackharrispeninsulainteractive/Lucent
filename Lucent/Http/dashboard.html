@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/runner/work/Lucent/Lucent/src/Lucent/Http</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=12.4.0" rel="stylesheet" type="text/css">
+  <link href="../../_css/billboard.min.css?v=12.4.0" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=12.4.0" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/runner/work/Lucent/Lucent/src</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Lucent</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Http</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classesCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EventStream/Event.php.html#8">Lucent\Http\EventStream\Event</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/EventStreamResponse.php.html#7">Lucent\Http\EventStream\EventStreamResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RedirectResponse.php.html#5">Lucent\Http\RedirectResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StreamController.php.html#9">Lucent\Http\StreamController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Attributes/ApiEndpoint.php.html#7">Lucent\Http\Attributes\ApiEndpoint</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="RouteInfo.php.html#5">Lucent\Http\RouteInfo</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="HttpResponse.php.html#5">Lucent\Http\HttpResponse</a></td><td class="text-right">41%</td></tr>
+       <tr><td><a href="HttpClient.php.html#8">Lucent\Http\HttpClient</a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="Request.php.html#15">Lucent\Http\Request</a></td><td class="text-right">59%</td></tr>
+       <tr><td><a href="HttpRouter.php.html#9">Lucent\Http\HttpRouter</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="JsonResponse.php.html#5">Lucent\Http\JsonResponse</a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="HttpClient.php.html#8">Lucent\Http\HttpClient</a></td><td class="text-right">57.8%</td><td class="text-right">45</td><td class="text-right">197</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#8">Lucent\Http\EventStream\Event</a></td><td class="text-right">0.0%</td><td class="text-right">12</td><td class="text-right">156</td></tr>
+       <tr><td><a href="Request.php.html#15">Lucent\Http\Request</a></td><td class="text-right">59.8%</td><td class="text-right">41</td><td class="text-right">150</td></tr>
+       <tr><td><a href="HttpResponse.php.html#5">Lucent\Http\HttpResponse</a></td><td class="text-right">41.7%</td><td class="text-right">13</td><td class="text-right">46</td></tr>
+       <tr><td><a href="StreamController.php.html#9">Lucent\Http\StreamController</a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="JsonResponse.php.html#5">Lucent\Http\JsonResponse</a></td><td class="text-right">80.0%</td><td class="text-right">12</td><td class="text-right">13</td></tr>
+       <tr><td><a href="EventStream/EventStreamResponse.php.html#7">Lucent\Http\EventStream\EventStreamResponse</a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpRouter.php.html#9">Lucent\Http\HttpRouter</a></td><td class="text-right">68.8%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2 style="margin-top: 3rem;">Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodsCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Attributes/ApiEndpoint.php.html#18"><abbr title="Lucent\Http\Attributes\ApiEndpoint::getUrlParameters">getUrlParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#10"><abbr title="Lucent\Http\EventStream\Event::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#20"><abbr title="Lucent\Http\EventStream\Event::toSSE">toSSE</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#49"><abbr title="Lucent\Http\EventStream\Event::send">send</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#62"><abbr title="Lucent\Http\EventStream\Event::output">output</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#67"><abbr title="Lucent\Http\EventStream\Event::error">error</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#72"><abbr title="Lucent\Http\EventStream\Event::progress">progress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#82"><abbr title="Lucent\Http\EventStream\Event::complete">complete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#87"><abbr title="Lucent\Http\EventStream\Event::data">data</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/EventStreamResponse.php.html#11"><abbr title="Lucent\Http\EventStream\EventStreamResponse::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventStream/EventStreamResponse.php.html#24"><abbr title="Lucent\Http\EventStream\EventStreamResponse::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#24"><abbr title="Lucent\Http\HttpClient::withHeaders">withHeaders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#36"><abbr title="Lucent\Http\HttpClient::withoutSSLVerification">withoutSSLVerification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#42"><abbr title="Lucent\Http\HttpClient::withBasicAuth">withBasicAuth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#48"><abbr title="Lucent\Http\HttpClient::withUserAgent">withUserAgent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#62"><abbr title="Lucent\Http\HttpClient::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#67"><abbr title="Lucent\Http\HttpClient::put">put</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#72"><abbr title="Lucent\Http\HttpClient::patch">patch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#77"><abbr title="Lucent\Http\HttpClient::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#89"><abbr title="Lucent\Http\HttpClient::head">head</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpClient.php.html#335"><abbr title="Lucent\Http\HttpClient::containsFiles">containsFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpResponse.php.html#21"><abbr title="Lucent\Http\HttpResponse::failed">failed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpResponse.php.html#34"><abbr title="Lucent\Http\HttpResponse::body">body</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpResponse.php.html#44"><abbr title="Lucent\Http\HttpResponse::headers">headers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpResponse.php.html#49"><abbr title="Lucent\Http\HttpResponse::error">error</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpResponse.php.html#54"><abbr title="Lucent\Http\HttpResponse::errorCode">errorCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpResponse.php.html#59"><abbr title="Lucent\Http\HttpResponse::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsonResponse.php.html#26"><abbr title="Lucent\Http\JsonResponse::getOutcome">getOutcome</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsonResponse.php.html#42"><abbr title="Lucent\Http\JsonResponse::getStatusCode">getStatusCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsonResponse.php.html#58"><abbr title="Lucent\Http\JsonResponse::addError">addError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RedirectResponse.php.html#7"><abbr title="Lucent\Http\RedirectResponse::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Request.php.html#184"><abbr title="Lucent\Http\Request::all">all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Request.php.html#206"><abbr title="Lucent\Http\Request::dataset">dataset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Request.php.html#217"><abbr title="Lucent\Http\Request::except">except</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Request.php.html#245"><abbr title="Lucent\Http\Request::setInput">setInput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteInfo.php.html#29"><abbr title="Lucent\Http\RouteInfo::getControllerName">getControllerName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StreamController.php.html#11"><abbr title="Lucent\Http\StreamController::stream">stream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StreamController.php.html#16"><abbr title="Lucent\Http\StreamController::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Request.php.html#268"><abbr title="Lucent\Http\Request::sanitizeUserInput">sanitizeUserInput</abbr></a></td><td class="text-right">30%</td></tr>
+       <tr><td><a href="HttpRouter.php.html#36"><abbr title="Lucent\Http\HttpRouter::loadRoutes">loadRoutes</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="HttpClient.php.html#105"><abbr title="Lucent\Http\HttpClient::download">download</abbr></a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="HttpClient.php.html#54"><abbr title="Lucent\Http\HttpClient::get">get</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="HttpResponse.php.html#26"><abbr title="Lucent\Http\HttpResponse::json">json</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Request.php.html#83"><abbr title="Lucent\Http\Request::initializeRequestData">initializeRequestData</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Request.php.html#346"><abbr title="Lucent\Http\Request::getUrlVariable">getUrlVariable</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="HttpClient.php.html#259"><abbr title="Lucent\Http\HttpClient::request">request</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="Request.php.html#295"><abbr title="Lucent\Http\Request::validate">validate</abbr></a></td><td class="text-right">81%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="HttpClient.php.html#335"><abbr title="Lucent\Http\HttpClient::containsFiles">containsFiles</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="StreamController.php.html#16"><abbr title="Lucent\Http\StreamController::execute">execute</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="HttpClient.php.html#105"><abbr title="Lucent\Http\HttpClient::download">download</abbr></a></td><td class="text-right">61.1%</td><td class="text-right">15</td><td class="text-right">28</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#20"><abbr title="Lucent\Http\EventStream\Event::toSSE">toSSE</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Request.php.html#184"><abbr title="Lucent\Http\Request::all">all</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Request.php.html#245"><abbr title="Lucent\Http\Request::setInput">setInput</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="HttpClient.php.html#259"><abbr title="Lucent\Http\HttpClient::request">request</abbr></a></td><td class="text-right">72.7%</td><td class="text-right">10</td><td class="text-right">12</td></tr>
+       <tr><td><a href="EventStream/Event.php.html#49"><abbr title="Lucent\Http\EventStream\Event::send">send</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="EventStream/EventStreamResponse.php.html#24"><abbr title="Lucent\Http\EventStream\EventStreamResponse::render">render</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpClient.php.html#89"><abbr title="Lucent\Http\HttpClient::head">head</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpResponse.php.html#34"><abbr title="Lucent\Http\HttpResponse::body">body</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Request.php.html#217"><abbr title="Lucent\Http\Request::except">except</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Request.php.html#268"><abbr title="Lucent\Http\Request::sanitizeUserInput">sanitizeUserInput</abbr></a></td><td class="text-right">30.0%</td><td class="text-right">3</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Request.php.html#295"><abbr title="Lucent\Http\Request::validate">validate</abbr></a></td><td class="text-right">81.2%</td><td class="text-right">6</td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpRouter.php.html#36"><abbr title="Lucent\Http\HttpRouter::loadRoutes">loadRoutes</abbr></a></td><td class="text-right">37.5%</td><td class="text-right">3</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Request.php.html#83"><abbr title="Lucent\Http\Request::initializeRequestData">initializeRequestData</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="HttpClient.php.html#54"><abbr title="Lucent\Http\HttpClient::get">get</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="HttpResponse.php.html#26"><abbr title="Lucent\Http\HttpResponse::json">json</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Request.php.html#346"><abbr title="Lucent\Http\Request::getUrlVariable">getUrlVariable</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 12.4.0</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.13</a> and <a href="https://phpunit.de/">PHPUnit 12.4.1</a> at Thu Oct 16 5:17:31 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/billboard.pkgd.min.js?v=12.4.0" type="text/javascript"></script>
+  <script type="application/json" id="complexity_class">[[0,12,"EventStream\/Event.php.html#8","Lucent\\Http\\EventStream\\Event","156"],[0,3,"EventStream\/EventStreamResponse.php.html#7","Lucent\\Http\\EventStream\\EventStreamResponse","12"],[0,1,"RedirectResponse.php.html#5","Lucent\\Http\\RedirectResponse","2"],[0,6,"StreamController.php.html#9","Lucent\\Http\\StreamController","42"],[33.33333333333333,2,"Attributes\/ApiEndpoint.php.html#7","Lucent\\Http\\Attributes\\ApiEndpoint","3.19"],[33.33333333333333,2,"RouteInfo.php.html#5","Lucent\\Http\\RouteInfo","3.19"],[41.66666666666667,13,"HttpResponse.php.html#5","Lucent\\Http\\HttpResponse","46.55"],[57.77777777777777,45,"HttpClient.php.html#8","Lucent\\Http\\HttpClient","197.42"],[59.756097560975604,41,"Request.php.html#15","Lucent\\Http\\Request","150.56"],[68.75,5,"HttpRouter.php.html#9","Lucent\\Http\\HttpRouter","5.76"],[80,12,"JsonResponse.php.html#5","Lucent\\Http\\JsonResponse","13.15"],[100,1,"Attributes\/ApiResponse.php.html#7","Lucent\\Http\\Attributes\\ApiResponse","1"]]</script>
+  <script type="application/json" id="complexity_method">[[0,1,"Attributes\/ApiEndpoint.php.html#18","Lucent\\Http\\Attributes\\ApiEndpoint::getUrlParameters","2"],[0,1,"EventStream\/Event.php.html#10","Lucent\\Http\\EventStream\\Event::__construct","2"],[0,4,"EventStream\/Event.php.html#20","Lucent\\Http\\EventStream\\Event::toSSE","20"],[0,2,"EventStream\/Event.php.html#49","Lucent\\Http\\EventStream\\Event::send","6"],[0,1,"EventStream\/Event.php.html#62","Lucent\\Http\\EventStream\\Event::output","2"],[0,1,"EventStream\/Event.php.html#67","Lucent\\Http\\EventStream\\Event::error","2"],[0,1,"EventStream\/Event.php.html#72","Lucent\\Http\\EventStream\\Event::progress","2"],[0,1,"EventStream\/Event.php.html#82","Lucent\\Http\\EventStream\\Event::complete","2"],[0,1,"EventStream\/Event.php.html#87","Lucent\\Http\\EventStream\\Event::data","2"],[0,1,"EventStream\/EventStreamResponse.php.html#11","Lucent\\Http\\EventStream\\EventStreamResponse::__construct","2"],[0,2,"EventStream\/EventStreamResponse.php.html#24","Lucent\\Http\\EventStream\\EventStreamResponse::render","6"],[0,1,"HttpClient.php.html#24","Lucent\\Http\\HttpClient::withHeaders","2"],[0,1,"HttpClient.php.html#36","Lucent\\Http\\HttpClient::withoutSSLVerification","2"],[0,1,"HttpClient.php.html#42","Lucent\\Http\\HttpClient::withBasicAuth","2"],[0,1,"HttpClient.php.html#48","Lucent\\Http\\HttpClient::withUserAgent","2"],[0,1,"HttpClient.php.html#62","Lucent\\Http\\HttpClient::post","2"],[0,1,"HttpClient.php.html#67","Lucent\\Http\\HttpClient::put","2"],[0,1,"HttpClient.php.html#72","Lucent\\Http\\HttpClient::patch","2"],[0,1,"HttpClient.php.html#77","Lucent\\Http\\HttpClient::delete","2"],[0,2,"HttpClient.php.html#89","Lucent\\Http\\HttpClient::head","6"],[0,6,"HttpClient.php.html#335","Lucent\\Http\\HttpClient::containsFiles","42"],[0,1,"HttpResponse.php.html#21","Lucent\\Http\\HttpResponse::failed","2"],[0,2,"HttpResponse.php.html#34","Lucent\\Http\\HttpResponse::body","6"],[0,1,"HttpResponse.php.html#44","Lucent\\Http\\HttpResponse::headers","2"],[0,1,"HttpResponse.php.html#49","Lucent\\Http\\HttpResponse::error","2"],[0,1,"HttpResponse.php.html#54","Lucent\\Http\\HttpResponse::errorCode","2"],[0,1,"HttpResponse.php.html#59","Lucent\\Http\\HttpResponse::render","2"],[0,1,"JsonResponse.php.html#26","Lucent\\Http\\JsonResponse::getOutcome","2"],[0,1,"JsonResponse.php.html#42","Lucent\\Http\\JsonResponse::getStatusCode","2"],[0,1,"JsonResponse.php.html#58","Lucent\\Http\\JsonResponse::addError","2"],[0,1,"RedirectResponse.php.html#7","Lucent\\Http\\RedirectResponse::__construct","2"],[0,4,"Request.php.html#184","Lucent\\Http\\Request::all","20"],[0,1,"Request.php.html#206","Lucent\\Http\\Request::dataset","2"],[0,2,"Request.php.html#217","Lucent\\Http\\Request::except","6"],[0,4,"Request.php.html#245","Lucent\\Http\\Request::setInput","20"],[0,1,"RouteInfo.php.html#29","Lucent\\Http\\RouteInfo::getControllerName","2"],[0,0,"StreamController.php.html#11","Lucent\\Http\\StreamController::stream","0"],[0,6,"StreamController.php.html#16","Lucent\\Http\\StreamController::execute","42"],[30,3,"Request.php.html#268","Lucent\\Http\\Request::sanitizeUserInput","6.09"],[37.5,3,"HttpRouter.php.html#36","Lucent\\Http\\HttpRouter::loadRoutes","5.20"],[61.111111111111114,15,"HttpClient.php.html#105","Lucent\\Http\\HttpClient::download","28.23"],[66.66666666666666,2,"HttpClient.php.html#54","Lucent\\Http\\HttpClient::get","2.15"],[66.66666666666666,2,"HttpResponse.php.html#26","Lucent\\Http\\HttpResponse::json","2.15"],[66.66666666666666,3,"Request.php.html#83","Lucent\\Http\\Request::initializeRequestData","3.33"],[66.66666666666666,2,"Request.php.html#346","Lucent\\Http\\Request::getUrlVariable","2.15"],[72.72727272727273,10,"HttpClient.php.html#259","Lucent\\Http\\HttpClient::request","12.03"],[81.25,6,"Request.php.html#295","Lucent\\Http\\Request::validate","6.24"],[100,1,"Attributes\/ApiEndpoint.php.html#10","Lucent\\Http\\Attributes\\ApiEndpoint::__construct","1"],[100,1,"Attributes\/ApiResponse.php.html#10","Lucent\\Http\\Attributes\\ApiResponse::__construct","1"],[100,1,"HttpClient.php.html#18","Lucent\\Http\\HttpClient::__construct","1"],[100,1,"HttpClient.php.html#30","Lucent\\Http\\HttpClient::withTimeout","1"],[100,1,"HttpResponse.php.html#8","Lucent\\Http\\HttpResponse::__construct","1"],[100,2,"HttpResponse.php.html#16","Lucent\\Http\\HttpResponse::successful","2"],[100,1,"HttpResponse.php.html#39","Lucent\\Http\\HttpResponse::status","1"],[100,2,"HttpRouter.php.html#14","Lucent\\Http\\HttpRouter::registerRoute","2"],[100,1,"JsonResponse.php.html#8","Lucent\\Http\\JsonResponse::__construct","1"],[100,1,"JsonResponse.php.html#20","Lucent\\Http\\JsonResponse::setOutcome","1"],[100,1,"JsonResponse.php.html#30","Lucent\\Http\\JsonResponse::setMessage","1"],[100,1,"JsonResponse.php.html#36","Lucent\\Http\\JsonResponse::setStatusCode","1"],[100,1,"JsonResponse.php.html#46","Lucent\\Http\\JsonResponse::addContent","1"],[100,1,"JsonResponse.php.html#52","Lucent\\Http\\JsonResponse::setContent","1"],[100,1,"JsonResponse.php.html#66","Lucent\\Http\\JsonResponse::render","1"],[100,2,"JsonResponse.php.html#72","Lucent\\Http\\JsonResponse::addErrors","2"],[100,1,"Request.php.html#59","Lucent\\Http\\Request::__construct","1"],[100,1,"Request.php.html#73","Lucent\\Http\\Request::setRouteInfo","1"],[100,3,"Request.php.html#107","Lucent\\Http\\Request::getHeaders","3"],[100,1,"Request.php.html#128","Lucent\\Http\\Request::header","1"],[100,1,"Request.php.html#141","Lucent\\Http\\Request::headers","1"],[100,3,"Request.php.html#151","Lucent\\Http\\Request::bearerToken","3"],[100,1,"Request.php.html#171","Lucent\\Http\\Request::isJsonRequest","1"],[100,2,"Request.php.html#233","Lucent\\Http\\Request::input","2"],[100,1,"Request.php.html#335","Lucent\\Http\\Request::getValidationErrors","1"],[100,1,"Request.php.html#359","Lucent\\Http\\Request::setUrlVars","1"],[100,1,"Request.php.html#370","Lucent\\Http\\Request::setHeader","1"],[100,1,"RouteInfo.php.html#16","Lucent\\Http\\RouteInfo::__construct","1"]]</script>
+  <script type="text/javascript" defer>
+  const barLabels = [
+    '0%',
+    '0-10%',
+    '10-20%',
+    '20-30%',
+    '30-40%',
+    '40-50%',
+    '50-60%',
+    '60-70%',
+    '70-80%',
+    '80-90%',
+    '90-100%',
+    '100%'
+  ];
+  const barConfig = (name, fullName, values) => ({
+    axis: {
+      x: {
+        type: "category",
+        categories: barLabels,
+      },
+      y: {
+        label: {
+          text: `#${name}`,
+          position: 'outer-top',
+        },
+      },
+    },
+    bindto: `#${name}CoverageDistribution`,
+    data: {
+      columns: [
+        [fullName].concat(values),
+      ],
+      colors: {
+        [fullName]: "rgba(69, 114, 167, 0.75)",
+      },
+      type: "bar",
+    },
+    bar: {
+      width: {
+        ratio: 0.9,
+      },
+    },
+    grid: {
+      focus: {
+        show: false,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">Coverage ${barLabels[data[0].x]}</th></tr>
+            <tr><td class="value">${data[0].value} ${name}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  bb.generate(
+    barConfig('classes', "Class Coverage", [4,0,0,0,2,1,2,1,0,1,0,1])
+  );
+  bb.generate(
+    barConfig('methods', "Method Coverage", [38,0,0,0,2,0,0,5,1,1,0,28])
+  );
+
+  const scatterConfig = (name, complexityData) => ({
+    axis: {
+      x: {
+        label: {
+          text: 'Code Coverage (in percent)',
+          position: 'outer-right',
+        },
+        tick: {
+          values: [0, 20, 40, 60, 80, 100],
+        },
+      },
+      y: {
+        label: {
+          text: 'Cyclomatic Complexity',
+          position: 'outer-top',
+        },
+        min: 0,
+        padding: {
+          bottom: 0,
+          top: 5,
+        },
+      },
+    },
+    bindto: `#${name}Complexity`,
+    data: {
+      columns: [
+        ["complexity_x"].concat(complexityData.map(d => d[0])),
+        ["complexity"].concat(complexityData.map(d => d[1])),
+      ],
+      onclick: function(data, element) {
+        window.location = complexityData[data.index][2];
+      },
+      type: "scatter",
+      xs: {
+        "complexity": "complexity_x",
+      },
+    },
+    grid: {
+      focus: {
+        show: true,
+        y: true,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        const coverage = Math.round(data[0].x);
+        const complexity = data[0].value;
+        const targetName = complexityData[data[0].index][3];
+        const crap = complexityData[data[0].index][4];
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">${targetName}</th></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Coverage</td><td class="name">${coverage}%</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Complexity</td><td class="value">${complexity}</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Crap</td><td class="value">${crap}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  const classComplexityData = JSON.parse(document.getElementById('complexity_class').textContent);
+  bb.generate(
+    scatterConfig("class", classComplexityData)
+  );
+  const methodComplexityData = JSON.parse(document.getElementById('complexity_method').textContent);
+  bb.generate(
+    scatterConfig("method", methodComplexityData),
+  );
+  </script>
+ </body>
+</html>
