@@ -15,9 +15,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: read
-
     services:
       mysql:
         image: mysql:8.0
@@ -70,19 +67,17 @@ jobs:
           DB_USER: root
           DB_PASSWORD: testpassword
 
-      - name: Upload coverage report
-        uses: actions/upload-artifact@v4
+      - name: Deploy coverage to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          name: coverage-report
-          path: coverage-report/
-          retention-days: 30
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./coverage-report
+          publish_branch: gh-pages
 
   build-and-release:
     needs: test
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout code
@@ -117,37 +112,3 @@ jobs:
         with:
           files: lucent.phar
           tag_name: ${{ steps.version.outputs.version }}
-
-  deploy-coverage:
-    needs: test
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    permissions:
-      pages: write
-      id-token: write
-      actions: read
-      contents: read
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Download coverage report
-        uses: actions/download-artifact@v4
-        with:
-          name: coverage-report
-          path: coverage-report
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'coverage-report'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

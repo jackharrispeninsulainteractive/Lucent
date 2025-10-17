@@ -41,7 +41,7 @@ class UpdateController
 
             try {
                 $client = new HttpClient('https://api.github.com');
-                $response = $client->get('/repos/jackharrispeninsulainteractive/Lucent/releases/latest');
+                $response = $client->get('/repos/blueprintau/Lucent/releases/latest');
 
                 if (!$response->successful()) {
                     return "Unable to lookup the latest version.";
@@ -108,7 +108,7 @@ class UpdateController
 
         try {
             $client = new HttpClient();
-            $response = $client->get('https://api.github.com/repos/jackharrispeninsulainteractive/Lucent/releases/latest');
+            $response = $client->get('https://api.github.com/repos/blueprintau/Lucent/releases/latest');
 
             if ($response->successful()) {
                 $latestRelease = $response->json();
@@ -256,7 +256,7 @@ class UpdateController
         $client = new HttpClient();
         $client->withTimeout(120); // Increase timeout to 2 minutes
 
-        $response = $client->get('https://api.github.com/repos/jackharrispeninsulainteractive/Lucent/releases/latest');
+        $response = $client->get('https://api.github.com/repos/blueprintau/Lucent/releases/latest');
 
         if ($response->successful()) {
             $latestRelease = $response->json();
